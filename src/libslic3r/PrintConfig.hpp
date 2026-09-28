@@ -159,6 +159,9 @@ inline bool is_smoothable_infill_pattern(InfillPattern pattern, int multiline = 
     case ip3DHoneycomb:
     case ipConcentric:
     case ipCrossHatch:
+    case ipZigZag:
+    case ipCrossZag:
+    case ipLockedZag:
         return true;
     case ipGrid:
     case ipTriangles:
